@@ -7,10 +7,9 @@ const msg = {
 }
   
 fetch(webhookurl, { 
-   "method":"post",
-   "header" : {
+   "method":"POST",
+   "headers" : {
    "content-type": "application/json"
    },
    "body": JSON.stringify(msg)
 })
-	
