@@ -6,7 +6,7 @@ const msg = {
   "content": "",
 }
   
-fetch(url, { 
+fetch(webhookurl, { 
    "method":"post",
    "header" : {
    "content-type": "application/json"
